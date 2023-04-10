@@ -1,5 +1,5 @@
 // Import
-const selectionSort = require('./selection-sort')
+const { selectionSort } = require('./selection-sort')
 
 // Describe test
 describe('selectionSort()', () => {

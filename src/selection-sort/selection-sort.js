@@ -42,4 +42,6 @@ function selectionSort (arr) {
 }
 
 // Export
-module.exports = selectionSort
+module.exports = {
+  selectionSort
+}
