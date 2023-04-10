@@ -41,22 +41,5 @@ function selectionSort (arr) {
   return arr
 }
 
-/**
- * Non-sorted numbers arrays
- * @type {number[]}
- */
-const smallArray = [1, 4, 3, 2]
-const middleArray = [9, 0, 5, 1, 4, 8, 3, 7, 6, 2]
-const largeArray = [
-  1, 3, 19333, 10039, 8, 10, 14, 56, 58, 61, 14995,
-  103, 105, 106, 933, 2034, 3059, 5069, 6093, 115, 932, 7758,
-  1059, 2033, 109, 113, 114, 4, 5, 8391, 9948,
-  19312, 19323, 10392, 13491, 17593, 88, 93
-]
-
-// Print result to console
-console.group('Result')
-console.log(selectionSort(smallArray))
-console.log(selectionSort(middleArray))
-console.log(selectionSort(largeArray))
-console.groupEnd()
+// Export
+module.exports = selectionSort
