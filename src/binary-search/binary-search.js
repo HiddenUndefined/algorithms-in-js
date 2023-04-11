@@ -47,10 +47,12 @@ function binarySearch (arr, targetNumber, viewLog = false) {
       if (viewLog) console.log(`Target: ${ targetNumber }, target index: ${ mid }, count for search: ${ count }`)
       // Exit from loop and return target value index
       return mid
-    } else if (valueByIndex < targetNumber) {
+    }
+    else if (valueByIndex < targetNumber) {
       // Continue while...
       low = mid + 1
-    } else if (valueByIndex > targetNumber) {
+    }
+    else if (valueByIndex > targetNumber) {
       // Continue while...
       high = mid - 1
     }
